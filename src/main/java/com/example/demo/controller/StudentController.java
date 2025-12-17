@@ -24,7 +24,10 @@ public class StudentController {
     @GetMapping("/getStudents")
     public List<StudentEntity> getStudents(){
         return ser.getStudents();
+
     }
+
+    
 
 
 
