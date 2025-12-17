@@ -6,4 +6,8 @@ import com.example.demo.entity.StudentEntity;
 
 public interface StudentRepository extends JpaRepository<StudentEntity, Long>{
 
+
+@Repository
+public interface StudentRepository extends JpaRepository<StudentEntity ,Long>
+
 }
